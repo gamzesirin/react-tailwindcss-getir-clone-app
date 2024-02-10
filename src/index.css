@@ -1,0 +1,19 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.min.css');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.min.css');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flag-select button {
+	@apply h-14 border-2 border-gray-200 rounded transition-colors bg-white hover:border-brandColor;
+}
+
+.flag-select button span > span:nth-child(2) {
+	@apply text-sm pl-2;
+}
+
+.banner {
+	background-image: url('https://cdn.getir.com/getirweb-images/common/partners-background.jpg');
+	background-size: cover;
+	background-position: center;
+}
