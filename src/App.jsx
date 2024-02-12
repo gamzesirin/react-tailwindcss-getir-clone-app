@@ -2,7 +2,7 @@ import './App.css'
 
 import { Route, Routes } from 'react-router-dom'
 
-import Buyuk from './pages/buyuk'
+import Buyuk from './pages/Buyuk'
 import Carsi from './pages/carsi'
 import Main from './pages/main'
 import Su from './pages/su'
