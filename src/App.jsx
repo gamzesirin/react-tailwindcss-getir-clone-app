@@ -3,10 +3,10 @@ import './App.css'
 import { Route, Routes } from 'react-router-dom'
 
 import Buyuk from './pages/Buyuk'
-import Carsi from './pages/carsi'
-import Main from './pages/main'
-import Su from './pages/su'
-import Yemek from './pages/yemek'
+import Carsi from './pages/Carsi'
+import Main from './pages/Main'
+import Su from './pages/Su'
+import Yemek from './pages/Yemek'
 
 const App = () => (
 	<Routes>
